@@ -8,27 +8,34 @@ body{
 	background-color: rgba(255,255,255,.5);
 }
 
+
 h1{
 	color: #661941;
 	font-weight: bold;
+	margin-bottom: 2em;
 }
 
-.media-body{
+.media{
+	margin: 1em 0;
+}
+.caja{
 	background-color:#661941;
 	border-radius: 12px;
+	margin: 1em;
+
 }
 
-.media-body p{
-	padding: .5em;
+.caja p{
+	padding:0 .5em;
 }
 
-.media-heading{
+.caja h4{
 	padding: .5em;
 }
 
 .img-thumbnail{
 	background-color: #661941;
-  	border: 1px solid #333;
+  	border: 1px solid #661941;
   	border-radius: 12px;
 }
 
@@ -40,4 +47,18 @@ h1{
 
 .figura-uva img{
 	width: 100%;
+}
+
+.boton{
+	margin: 1em auto;
+	width: 100%;
+	background-color: #661941;
+	border: 1px solid #661941;
+}
+
+.boton:hover{
+	background-color: #D2C816;
+	box-shadow: 8px 8px 8px #333;
+	border: 1px solid #661941;
+	color: #661941;
 }
