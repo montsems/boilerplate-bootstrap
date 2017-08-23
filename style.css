@@ -1,0 +1,43 @@
+body{
+	background-color: #D2C816;
+	font-family: ubuntu, sans-serif;
+	color: whitesmoke;
+}
+
+.container{
+	background-color: rgba(255,255,255,.5);
+}
+
+h1{
+	color: #661941;
+	font-weight: bold;
+}
+
+.media-body{
+	background-color:#661941;
+	border-radius: 12px;
+}
+
+.media-body p{
+	padding: .5em;
+}
+
+.media-heading{
+	padding: .5em;
+}
+
+.img-thumbnail{
+	background-color: #661941;
+  	border: 1px solid #333;
+  	border-radius: 12px;
+}
+
+.figura-uva{
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+}
+
+.figura-uva img{
+	width: 100%;
+}
